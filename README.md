@@ -145,6 +145,6 @@ Authorization: your_jwt_token
 
 ## Deployed Link
 - **Here, also provided a deployed link:**
-  ``
+  ```
   https://url-shortener-nfk1.onrender.com/
-  ``
+  ```
