@@ -1,5 +1,4 @@
 
-```markdown
 # URL Shortener Backend
 
 This Node.js-based backend powers a URL shortener service, offering an API for URL shortening and incorporating user authentication via JWT.
