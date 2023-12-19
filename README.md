@@ -17,6 +17,7 @@ This Node.js-based backend powers a URL shortener service, offering an API for U
     - [Shorten a URL](#shorten-a-url)
     - [Redirect to Original URL](#redirect-to-original-url)
 - [Authentication](#authentication)
+- [Deployed Link](#deployed-link)
 
 
 ## Features
@@ -142,3 +143,5 @@ Include the JWT token in the Authorization header for authenticated requests:
 Authorization: your_jwt_token
 ```
 
+## Deployed Link
+- **Here, also provided a deployed link:** `https://url-shortener-nfk1.onrender.com/`
