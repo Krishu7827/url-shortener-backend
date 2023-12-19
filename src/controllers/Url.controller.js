@@ -27,7 +27,7 @@ const shortenUrl = async (req, res) => {
             /** Sending Response with Original Url and Shortened Url */
             res.status(201).json({
                 originalUrl: url.originalUrl,
-                shortUrl: `https://url-shortener-backend-wnnc.onrender.com/api/url/${url.shortUrl}`,
+                shortUrl: `https://url-shortener-nfk1.onrender.com/api/url/${url.shortUrl}`,
             });
 
         } else {
@@ -35,7 +35,7 @@ const shortenUrl = async (req, res) => {
             /** Sending Response with Original Url and Shortened Url for already Exists Original Url */
             res.status(201).json({
                 originalUrl: isOriginalUrl.originalUrl,
-                shortUrl: `https://url-shortener-backend-wnnc.onrender.com/api/url/${isOriginalUrl.shortUrl}`,
+                shortUrl: `https://url-shortener-nfk1.onrender.com/api/url/${isOriginalUrl.shortUrl}`,
             });
 
         }
