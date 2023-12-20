@@ -118,6 +118,9 @@ Replace `your_jwt_secret_key` with a secure and unique key for JWT.
   ```json
   {
     "originalUrl": "https://www.example.com/long-url"
+  },
+  headers:{
+  authorization:`Your JWT Token`
   }
   ```
 
