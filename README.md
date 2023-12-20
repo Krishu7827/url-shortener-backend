@@ -115,12 +115,13 @@ Replace `your_jwt_secret_key` with a secure and unique key for JWT.
 - **Route:** `POST /api/url/shorten`
 - **Request Body (`Requires JWT Authentication Token`):**
 
-  ```json
+  ```
   {
     "originalUrl": "https://www.example.com/long-url"
-   headers:{
-  authorization:`Your JWT Token`
+  
   }
+  headers:{
+  authorization:`Your JWT Token`
   }
  
   ```
